@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face{
+font-family: khokan;
+    src:url("fonts/domain.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.domainname{
+    font-family:khokan;
+    font-size: 30px;
+    margin-left: 20px;
+    letter-spacing:0.8px;
+    font-style: bold;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background:#b5abab;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 15px 16px;
+    display: block;
+}
+.dropdown-content a:hover{
+    background:#ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#anc a{
+    color: white;
+}
+h2{
+   font-family: 'Lemonada', cursive;
+    color:orange;
+    letter-spacing: 1px;
+}
+h3{
+    color: orange;
+}
+h4{
+    color: orange;
+}
+.color{
+   background:linear-gradient(#e53684,#ed5132);
+     box-shadow:0 5px 10px #efefef;
+}
+#navbarSupportedContent a:hover{
+    color: orange;
+}
+.just{
+    text-align: justify;
+}
+.back{
+    background:#d3f0dc;
+}
+.bgourservices{
+    background: #d3f0dc;
+}
+.just{
+    text-align: justify;
+    font-family: 'Mulish', Mulish;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    
+}
+.justkho{
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+#member ul li{
+    font-family: 'Mulish', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.8px;
+    color: white;
+}
+
+.usetechonology{
+    background:;
+}

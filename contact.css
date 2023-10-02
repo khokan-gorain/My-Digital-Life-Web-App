@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+@font-face{
+font-family: khokan;
+    src:url("fonts/domain.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.domainname{
+    font-family:khokan;
+    font-size: 30px;
+    margin-left: 20px;
+    letter-spacing:0.8px;
+    font-style: bold;
+}
+.color{
+     background:linear-gradient(#e53684,#ed5132);
+     box-shadow:0 5px 10px #efefef;
+}
+.just{
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    
+}
+h3{
+    color:orange;
+}
+.back{
+    background:#d3f0dc;
+}
+.bgourservices{
+    background: #d3f0dc;
+}
+.usetechonology{
+    background: #efc8f0;
+}
+#navbarSupportedContent a:hover{
+    color: orange;
+}

@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@font-face{
+font-family: khokan;
+    src:url("fonts/domain.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.domainname{
+    font-family:khokan;
+    font-size: 30px;
+    margin-left: 20px;
+    letter-spacing:0.8px;
+    font-style: bold;
+}
+#navbarSupportedContent a:hover{
+    color: orange;
+}
+.color{
+    background:linear-gradient(#e53684,#ed5132);
+     box-shadow:0 5px 10px #efefef;
+}
+.just{
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    
+}
+.justkho{
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    
+}
+.justpara{
+    text-align: justify;
+    word-spacing: 1px;
+    letter-spacing: 0.7px;
+}
+h2{
+    font-family: 'Lemonada', cursive;
+    color:orange;
+    letter-spacing: 1px;
+}
+h3{
+    color:orange;
+}
+h5{
+     font-family: 'Rubik', sans-serif;
+     font-weight: bold;
+}
+h6{
+     font-family: 'Mulish', sans-serif;
+}
+.bcaa{
+    font-family: 'Lemonada', cursive;
+    color: orange;
+    word-spacing: 2px;
+}
+.back{
+    background:#d3f0dc;
+}
+.bgourservices{
+    background: #d3f0dc;
+}
+.usetechonology{
+    background: #efc8f0;
+}
+#khokan{
+    width: 100%;
+    border-radius:3px;
+}
+.about:last-child{
+    position: relative;
+}
+.about,panel{
+    position: absolute;
+    top:9vmin;
+    left: -15vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 4px;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+}
+.bca{
+    background: rgba(208,241,241,0.19);
+}
+
+.sha{
+   box-shadow: 0px 25px 42px rgba(0,0,0,0.1);
+}
+#passwrong{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #2ecc71;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+@media (min-width:){
+    panel{
+    position: absolute;
+    background: white;
+    border-radius: 3px;
+    padding: 4px;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+}
+}
+
+
+
+
+
+
+
+
+
